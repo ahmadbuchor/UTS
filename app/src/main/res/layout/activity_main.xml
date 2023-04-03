@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        app:srcCompat="@mipmap/food"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="47dp"
+        android:layout_height="49dp"
+        app:srcCompat="@mipmap/book"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="52dp"
+        android:layout_height="47dp"
+        app:srcCompat="@mipmap/game"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        app:srcCompat="@mipmap/sleep"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="77dp"
+        android:max="100"
+        android:progress="10"
+        android:secondaryProgress="30"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:max="100"
+        android:progress="10"
+        android:secondaryProgress="30"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="85dp"
+        android:layout_height="41dp"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="19dp"
+        android:max="100"
+        android:progress="10"
+        android:secondaryProgress="30"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="70dp"
+        android:max="100"
+        android:progress="10"
+        android:secondaryProgress="30"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
